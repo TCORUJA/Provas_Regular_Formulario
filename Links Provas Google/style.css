@@ -1,0 +1,27 @@
+.autenticacao{
+    display: grid;
+}
+
+.autenticacaoOcultar{
+    display: none;
+}
+.links{
+    display: grid;
+}
+
+.linksOcultar{
+    display: none;
+}
+
+
+.prova{
+    display: none;
+}
+
+.provaExibir{
+    display: grid;
+}
+
+#COB1084{
+    color: rgb(0, 255, 4);
+}
