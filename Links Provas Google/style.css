@@ -1,18 +1,32 @@
 .autenticacao{
     display: grid;
+    width: 90%;
+    margin: auto;
 }
-
 .autenticacaoOcultar{
     display: none;
 }
-.links{
+.campoAutenticacao{
     display: grid;
+    width: 150px;
+    margin: 10px auto;
+    padding: 5px;
+    text-align: center;
 }
 
-.linksOcultar{
+.campoAutenticacaoOcultar{
+    display: none;
+}
+.links{
     display: none;
 }
 
+.linksExibir{
+    display: grid;
+}
+.abrirLink{
+    cursor: pointer;
+}
 
 .prova{
     display: none;
@@ -20,8 +34,4 @@
 
 .provaExibir{
     display: grid;
-}
-
-#COB1084{
-    color: rgb(0, 255, 4);
 }
