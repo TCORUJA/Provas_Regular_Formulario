@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+.autenticacao{
+    display: flex;
+    height: 100vh;
+}
+.autenticacaoOcultar{
+    display: none;
+}
+.divisaoAutenticacao{
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    box-shadow: 0px 0px 20px 10px #0000002c;
+    background: #FF7514;
+    color: #ffffff;
+    border-radius: 3px;
+}
+.campoAutenticacao{
+    display: grid;
+    margin: auto;
+    padding: 5px;
+    height: 100%;
+    font-size: 22px;
+    padding: 10px;
+    font-weight: bold;
+}
+.input{
+    width: 150px;
+    height: 30px;
+    margin: 20px auto;
+    border: #ffffff 1px solid;
+    text-align: center;
+    border-radius: 5px;
+}
+.campoSenha{
+    display: grid;
+    grid-template-columns: 99% 1%;
+}
+#botaoMostrarSenha{
+    text-align: left;
+    cursor: pointer;
+    margin: 22px 0px 0px -140px;
+    color: #ff7614;
+}
+
+#confirmar{
+    background-color: #ffffff;
+    color: #FF7514;
+    font-weight: bold;
+    cursor: pointer;
+}
+#confirmar:hover{
+    background-color: #000000;
+    border: #000000 1px solid;
+}
+
+.links{
+    display: none;
+}
+
+.linksExibir{
+    display: flex;
+}
+.tabela{
+    text-align: center;
+    margin: auto;
+    background-color: #f3f3f3c7;
+    height: 100%;
+    padding: 20px;
+}
+
+
+.nomeProc{
+    padding-bottom: 50px;
+}
+.abrirLink{
+    padding: 10px;
+    cursor: pointer;
+}
+.abrirLink:hover{
+    text-decoration: underline #FF7514 3px;
+}
+
+#nomeTopo{
+    font-size: 32px;
+    padding: 10px;
+
+}
+
+
+
+.prova{
+    display: none;
+}
+
+.provaExibir{
+    display: grid;
+}
+
+
+
