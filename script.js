@@ -24,7 +24,7 @@ function confirmar() {
     var arr = senha.split(" ");
     var camposenha = arr[0];
 
-    var senhaDefinida = "123"
+    var senhaDefinida = "#Uni123"
 
     if (camposenha == senhaDefinida) {
         var autenticacao = document.getElementById('autenticacao');
