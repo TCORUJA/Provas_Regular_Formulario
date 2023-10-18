@@ -1,8 +1,6 @@
 *{
-  padding: 0px;
-  margin: 0px;
   box-sizing: border-box;
-  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
 }
 body{
 	background:url(img/background/Background.png) repeat-x fixed;
@@ -37,116 +35,152 @@ input, textarea{
 }
 
 
-
-.autenticacao{
+.validacoes{
   width: 50vw;
-  height: calc(100vh - 117px);
+  height: calc(100vh - 109px);
   margin: 20px auto;
   padding: 15px 10px;
   display: flex;
   border-radius: 15px;
 }
-.autenticacaoOcultar{
-  display: none;
-}
-.divisaoAutenticacao{
-  width: 400px;
-  height: 200px;
+
+.validadores{
   margin: auto;
+  font-size: 20px;
   background-color: #0000005b;
-  color: #ffffff;
   border-radius: 10px;
-}
-.campoAutenticacao{
-  display: grid;
-  margin: auto;
-  padding: 5px;
-  height: 100%;
-  font-size: 22px;
-  padding: 10px;
-  font-weight: bold;
   padding: 25px;
 }
-.input{
-  width: 150px;
-  height: 30px;
-  margin: 20px auto;
-  background-color: #dcdcdc;
-  text-align: center;
-  border-radius: 5px;
-}
-.campoSenha{
-  display: grid;
-  grid-template-columns: 99% 1%;
-}
-#botaoMostrarSenha{
-  text-align: left;
-  cursor: pointer;
-  margin: 22px 0px 0px -124px;
-  color: #ff7614;
-}
-
-.campoConfirmar{
+.validador{
+  margin: auto;
+  padding: 15px 5px;
   display: flex;
 }
-#confirmar{
+.nome{
+  padding-right: 5px;
+  color: #ffffff;
+  margin: auto;
+}
+.matricula{
+  font-size: 18px;
+  text-align: center;
+  background-color: #dcdcdc;
+  padding: 5px;
+}
+.buscar{
+  font-weight: bold;
+  margin: auto;
   background-color: #EF7D00;
   color: #ffffff;
-  font-weight: bold;
-  cursor: pointer;
-  font-size: 17px;
+  text-align: center;
   border-radius: 50px;
-}
-#confirmar:hover{
-  background-color: #000000;
-}
-
-.links{
-  display: none;
+  padding: 10px;
+  font-size: 17px;
+  cursor: pointer;
 }
 
-.linksExibir{
+
+
+.disciplinas{
+  width: 50vw;
+  height: calc(100vh - 109px);
+  margin: 20px auto;
+  padding: 15px 10px;
   display: flex;
+  border-radius: 15px;
+}
+.divTabela{  
+  margin: auto;
 }
 .tabela{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 10px 0px;
+}
+tr th{
+  color: #ffffff;
+  border-radius: 1px;
+  padding: 7px 10px;
+  font-size: 17px;
+}
+tr td{
+  color: #000000;
+  border-radius: 1px;
+  padding: 5px 10px;
+  font-size: 15px;
+}
+.descricaoCurso{
+  width: 25%;
+}
+.descricaoPeriodo,.descricaoCodigo{
+  width: 15%;
+}
+#tabelaAL .descricaoCodigo{
+  width: 25%;
+}
+.descricaoCurso, .descricaoPeriodo, .descricaoCodigo{
   text-align: center;
-  margin: 10px auto;
-  background-color: #0000005b;
-  height: 100%;
-  padding: 20px;  
 }
 
-#nomeProc, #procurado{
-  font-size: 20px;
-  padding-bottom: 5px;
-  border-bottom: #004070 1px solid;
-}
-#procurado{
-  border: #ffffff solid 1px;
-}
-.abrirLink{
+.informacaoAlunoSemProva{
   padding: 10px;
+  background-color: #EF7D00;
+  color: #ffffff;
+  font-size: 18px;
+}
+.informacaoSemProva:first-child{
+  font-weight: bolder;
+  margin: 10px 0px;
+}
+.informacaoSemProva{
+  margin: 10px 10px;
+}
+
+.divVoltar{
+  display: flex;
+  padding-top: 20px;
+}
+.campoVoltar{
+  display: flex;
+  margin: auto;
+  padding: 5px 20px;
+  border-radius: 50px;
+  background-color: #EF7D00;
+  font-weight: bolder;
+  color: #ffffff;
   cursor: pointer;
 }
-.abrirLink:hover{
-  text-decoration: underline #FF7514 3px;
-}
-
-#nomeTopo{
-  font-size: 32px;
-  padding: 10px;
-
-}
 
 
-
-.prova{
+.displayNone{
   display: none;
 }
-
-.provaExibir{
-  display: grid;
+.nomeVoltar{
+  margin: auto 0px;
 }
 
 
 
+.par{
+  background-color: #F0F0F0;
+}
+.impar{
+  background-color: #E0E0E0;
+}
+
+@media only screen and (max-width: 915px){
+  .widthGeral{
+    width: 800px;
+  }
+  #div1, #div3{
+    overflow: scroll;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 815px){
+  #div1, #div3{
+    overflow: scroll;
+    width: 100%;
+  }
+}
