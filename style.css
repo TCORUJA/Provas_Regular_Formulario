@@ -1,0 +1,158 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+body{
+	background:url(img/background/Background.png) repeat-x fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+  /* background-color: #f7f7f7; */
+  font-family: Arial, Helvetica, sans-serif;
+  word-wrap: break-word;
+}
+input, textarea{
+  border: solid 1px #00000000;
+  border-radius: 5px;
+}
+
+
+
+.conteudoTopo{
+  width: 100vw;
+  margin: 0 auto;
+  padding: 10px 25px;
+	background:url(img/background/BackgroundTopo2.png);
+  /* background-color: #FF7514; */
+  background-size: cover;
+  background-position: center;
+}
+.nomeTopo{
+  font-size: 32px;
+  text-align: center;
+  padding: 6px 0 6px 0;
+  font-weight: bolder;
+}
+
+
+
+.autenticacao{
+  width: 50vw;
+  height: calc(100vh - 117px);
+  margin: 20px auto;
+  padding: 15px 10px;
+  display: flex;
+  border-radius: 105px;
+}
+.autenticacaoOcultar{
+  display: none;
+}
+.divisaoAutenticacao{
+  width: 400px;
+  height: 200px;
+  margin: auto;
+  background-color: #0000005b;
+  color: #ffffff;
+  border-radius: 10px;
+}
+.campoAutenticacao{
+  display: grid;
+  margin: auto;
+  padding: 5px;
+  height: 100%;
+  font-size: 22px;
+  padding: 10px;
+  font-weight: bold;
+  padding: 25px;
+}
+.input{
+  width: 150px;
+  height: 30px;
+  margin: 20px auto;
+  background-color: #dcdcdc;
+  text-align: center;
+  border-radius: 5px;
+}
+.campoSenha{
+  display: grid;
+  grid-template-columns: 99% 1%;
+}
+#botaoMostrarSenha{
+  text-align: left;
+  cursor: pointer;
+  margin: 22px 0px 0px -124px;
+  color: #ff7614;
+}
+
+#botaoMostrarSenha:hover{
+  color: #EA5A33;
+}
+
+.campoConfirmar{
+  display: flex;
+}
+#confirmar{
+  background-color: #EF7D00;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 17px;
+  border-radius: 50px;
+}
+#confirmar:hover{
+  background-color: #EA5A33;
+}
+
+.links{
+  display: none;
+}
+
+.linksExibir{
+  display: flex;
+}
+.tabela{
+  text-align: center;
+  margin: 10px auto;
+  height: 100%;
+  padding: 20px;  
+}
+
+#nomeProc, #procurado{
+  font-size: 20px;
+  padding: 10px;
+}
+#procurado{
+  border: #ffffff solid 1px;
+  padding: 2px;
+}
+.abrirLink{
+  padding: 10px;
+  cursor: pointer;
+}
+.abrirLink:hover{
+  background-color:  #EA5A33;
+  color: #ffffff;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+#nomeTopo{
+  font-size: 32px;
+  padding: 10px;
+
+}
+
+
+
+.prova{
+  display: none;
+}
+
+.provaExibir{
+  display: grid;
+}
+
+
+
