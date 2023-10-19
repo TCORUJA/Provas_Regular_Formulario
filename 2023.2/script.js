@@ -40,11 +40,11 @@ function confirmar() {
     var linhaParImpar = document.querySelectorAll('tr');
     for (var i = 1; i < linhaParImpar.length; i++) {
         if (i % 2 === 0) {
-            linhaParImpar[i].classList.add('par');
-            linhaParImpar[i].classList.remove('impar');
-        } else {
             linhaParImpar[i].classList.add('impar');
             linhaParImpar[i].classList.remove('par');
+        } else {
+            linhaParImpar[i].classList.add('par');
+            linhaParImpar[i].classList.remove('impar');
         }
     }
 
@@ -64,11 +64,11 @@ $('table input').keyup(function () {
     var linhaParImpar = document.querySelectorAll("tr:not([style='display: none;'])");
     for (var i = 1; i < linhaParImpar.length; i++) {
         if (i % 2 === 0) {
-            linhaParImpar[i].classList.add('par');
-            linhaParImpar[i].classList.remove('impar');
-        } else {
             linhaParImpar[i].classList.add('impar');
             linhaParImpar[i].classList.remove('par');
+        } else {
+            linhaParImpar[i].classList.add('par');
+            linhaParImpar[i].classList.remove('impar');
         }
     }
 });
