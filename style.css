@@ -116,7 +116,10 @@ input, textarea{
   text-align: center;
   margin: 10px auto;
   height: 100%;
-  padding: 20px;  
+  padding: 10px;
+}
+.nomeLinks{
+  background-color: #666666;
 }
 
 #nomeProc, #procurado{
@@ -136,6 +139,9 @@ input, textarea{
   color: #ffffff;
   border-radius: 50px;
   font-weight: bold;
+}
+.conteudoAbrirLink:hover{
+  border-radius: 50px;
 }
 
 #nomeTopo{
